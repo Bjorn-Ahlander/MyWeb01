@@ -1,0 +1,32 @@
+/* body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  } */
+
+		.body { 
+			padding: 0; 
+			margin: 0; 
+		} 
+
+		.Parent { 
+			display: flex; 
+			flex-direction: row; 
+		} 
+
+		.child1 { 
+			width: 30%; 
+			height: 100vh; 
+			background-color: green; 
+			text-align: right; 
+			color: white; 
+		} 
+
+		.child2 { 
+			width: 70%; 
+			color: green; 
+			height: 100vh; 
+		} 
