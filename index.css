@@ -2,14 +2,7 @@ body {
     background-color: yellow;
   }
 
-  /* body {
-    color: navy; 
-    margin-left: 200px;
-    text-align: left;
- }*/
-  
-  h2 {
-    /* color: navy; */
+   h2 {
     margin-left: 200px;  
     text-align: left;
     font-family:Arial, Helvetica, sans-serif;
@@ -17,12 +10,15 @@ body {
   } 
 
   h4 {
-    /* color: navy; */
     margin-left: 200px;  
     text-align: left;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 14px;
   } 
+
+  h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
   p{
     margin-left: 200px;
@@ -33,6 +29,7 @@ body {
   {
     margin-left: 200px;
     text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   img{
@@ -57,9 +54,28 @@ body {
 		} 
 
 		.child2 { 
-			width: 70%; 
+			width: 60%; 
 			color: green; 
 			height: 100vh; 
-            text-align: left;
-                    
-		} 
+      text-align: left;
+      
+    .hide {
+    display: none;
+    }
+  
+    .myDIV:hover + .hide {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid green;
+    background-color: aqua;
+    } 
+    
+    .child3 { 
+			width: 10%; 
+			color: green; 
+			height: 100vh; 
+      /* background-color: green; */
+      text-align: right;
+    }
+      
+	} 
